@@ -150,7 +150,7 @@ ex:ps-created a sh:PropertyShape ;
   sh:minCount "1" .
 
 ex:ps-publisher a sh:PropertyShape ;
-  sh:path dcterms:published ;
+  sh:path dcterms:publisher ;
   sh:nodeKind sh:IRI ;
   sh:name "Publisher"@en ;
   sh:class foaf:Person ;
